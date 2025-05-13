@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BaseObject">
+      <UniqueIdentifier>{4fd23948-b250-410e-bcbf-5cb965211dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{0e277bfb-221e-473c-afcc-0a7727c61c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{dba4b996-e67f-4398-9a16-4cb9d05100f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{931d2b74-4d43-4542-9d9b-10c87310296f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Transform">
+      <UniqueIdentifier>{913157c2-779a-45b8-b605-edbdefd19501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Render">
+      <UniqueIdentifier>{6de1100a-2b2d-42e2-8e1b-f4b1a4bb509e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Animation">
+      <UniqueIdentifier>{b3ac27ef-5925-48d0-92b4-55d3531c5b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Camera">
+      <UniqueIdentifier>{0b667b06-afba-4598-a794-fef41b7a4e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Box">
+      <UniqueIdentifier>{604afb0b-8c3f-4308-883b-2a9c6f9fff78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Camera">
+      <UniqueIdentifier>{6e241b90-0d7f-4e9e-883b-145206d4d421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Demo">
+      <UniqueIdentifier>{2611a86e-96e7-494c-b1e6-63c057bf4e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{1752b91e-d2af-4617-9c71-4770788ba0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Player">
+      <UniqueIdentifier>{fbad3453-4aee-4b51-a646-29818f171ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\FSM">
+      <UniqueIdentifier>{871f112a-eea1-4919-95c1-70ac3a8281bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Bitmap">
+      <UniqueIdentifier>{68fe797a-bd3f-4870-87f4-217ade06b9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{5100c568-e272-442e-a8df-04edf5667eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Movement">
+      <UniqueIdentifier>{50fc8014-a8a6-4f6b-a5c9-f432c8c7f65c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Collision">
+      <UniqueIdentifier>{7ad54093-5c47-4de5-bc91-c03de7df1042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Input">
+      <UniqueIdentifier>{91d4ee73-c480-437a-8ff3-07b684281200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Time">
+      <UniqueIdentifier>{1bbaba34-36d6-4d4d-8109-ed16c2bc57cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{a9fe77ec-adaf-4c63-8f12-f47ebb6d84fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{1c790bcd-b754-4d87-85da-5cd7d6fa62ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Event">
+      <UniqueIdentifier>{c14b2851-468c-4ecf-9c1e-399729deb8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Sound">
+      <UniqueIdentifier>{a5a05201-9d26-486b-8569-be9d33fe2d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\RigidBody">
+      <UniqueIdentifier>{6e826edc-d29e-447b-832e-14db2f89e91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\TileCollider">
+      <UniqueIdentifier>{66afb631-c969-490f-8b01-5cf6abbef37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\TileImage">
+      <UniqueIdentifier>{6e4003ae-41a0-47f1-a386-da0ede510c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{92df7697-6b6b-4fcd-aeff-9944603cec50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\BoxCollider">
+      <UniqueIdentifier>{aa5eff15-c86e-40b0-b7a4-102d4600b964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider">
+      <UniqueIdentifier>{af279990-8de7-43c3-88ee-c3e094fac206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Idle">
+      <UniqueIdentifier>{aa1fb801-f642-4c99-a32f-fdcdaa47b992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Move">
+      <UniqueIdentifier>{88a3f6d0-71b4-4d0d-b331-669a6f18ee8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Death">
+      <UniqueIdentifier>{4ff42cce-cccf-4638-a61c-e950696727ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Dash">
+      <UniqueIdentifier>{643ac0c7-f9a5-44b3-845b-8445ccb59906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Jump">
+      <UniqueIdentifier>{a9a86720-4428-45ad-bcc8-966e40628138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Double Jump">
+      <UniqueIdentifier>{00aa108b-f68b-4acf-b3c0-7ae56a4eb87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Bubble">
+      <UniqueIdentifier>{9e4ba94e-fffb-4a33-8c7b-9040aa1724b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Teleport">
+      <UniqueIdentifier>{5b134344-d59c-4b00-94c7-b4d2853bb04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Load">
+      <UniqueIdentifier>{53795a2a-8c9e-460f-bcf6-b7c308a6491a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Debug">
+      <UniqueIdentifier>{cb568e0a-7362-43a1-8a5b-e3098d00f459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\TileObject">
+      <UniqueIdentifier>{b6790973-ad1c-4891-8652-71c455361e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\PartSceneObject">
+      <UniqueIdentifier>{b873db85-a378-4b05-9788-220966c3e092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Bubble">
+      <UniqueIdentifier>{fafe3fea-6c5e-4ea8-a6f6-3642d7479ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Button">
+      <UniqueIdentifier>{2ddfa9c2-4386-433d-b0ef-e4859c162ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\UI">
+      <UniqueIdentifier>{1d73fe94-50b6-4faa-a117-2123b1515a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\UI\Button">
+      <UniqueIdentifier>{e2e21237-f69f-417f-8856-9bcc1fff0773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\UI\Text">
+      <UniqueIdentifier>{29d3d809-b15e-4841-9640-b45268bd3f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\CutSceneObject">
+      <UniqueIdentifier>{3bcce781-b180-4432-8a97-aaceb726dea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\ElipseComponent">
+      <UniqueIdentifier>{dc8d573e-afb5-4d09-920c-2d6423e48915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\BubbleIdle">
+      <UniqueIdentifier>{9ecce999-a221-46c4-9169-328a959856c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\BubbleBurst">
+      <UniqueIdentifier>{725210b7-391f-4f90-bc35-087ab8af3e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\BubbleInteract">
+      <UniqueIdentifier>{bf0154ee-a96b-492e-95f3-f40c3676d710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GemObject">
+      <UniqueIdentifier>{25d82401-c222-4183-be61-a7281052d1cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DRenderer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxComponent.h">
+      <Filter>Component\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoObject.h">
+      <Filter>GameObject\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMCharacter.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMComponent.h">
+      <Filter>Component\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapComponent.h">
+      <Filter>Component\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Component\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Manager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Manager\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationAsset.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceCounter.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonComponent.h">
+      <Filter>Component\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="TileColliderComponent.h">
+      <Filter>Component\TileCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="TileImageComponent.h">
+      <Filter>Component\TileImage</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Component\BoxCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="StateIdle.h">
+      <Filter>FSM\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMove.h">
+      <Filter>FSM\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="StateDeath.h">
+      <Filter>FSM\Death</Filter>
+    </ClInclude>
+    <ClInclude Include="StateDash.h">
+      <Filter>FSM\Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="StateJump.h">
+      <Filter>FSM\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="StateDoubleJump.h">
+      <Filter>FSM\Double Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="StateBubble.h">
+      <Filter>FSM\Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTeleport.h">
+      <Filter>FSM\Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="StateDoubleJumpDescent.h">
+      <Filter>FSM\Double Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="StateDoubleJumpLand.h">
+      <Filter>FSM\Double Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="StateJumpDescent.h">
+      <Filter>FSM\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="StateJumpLand.h">
+      <Filter>FSM\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TileObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Manager\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraObject.h">
+      <Filter>GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PartSceneObject.h">
+      <Filter>GameObject\PartSceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonManager.h">
+      <Filter>Manager\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent.h">
+      <Filter>Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComponent.h">
+      <Filter>Component\UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="CutSceneObject.h">
+      <Filter>GameObject\CutSceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PortObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleObject.h">
+      <Filter>GameObject\Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="StateBubbleBurst.h">
+      <Filter>FSM\BubbleBurst</Filter>
+    </ClInclude>
+    <ClInclude Include="StateBubbleIdle.h">
+      <Filter>FSM\BubbleIdle</Filter>
+    </ClInclude>
+    <ClInclude Include="StateBubbleInteract.h">
+      <Filter>FSM\BubbleInteract</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipseComponent.h">
+      <Filter>Component\ElipseComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="FireObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GemObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DisappearingObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTitleObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SpikeObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="struct.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DRenderer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraObject.cpp">
+      <Filter>GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxComponent.cpp">
+      <Filter>Component\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoObject.cpp">
+      <Filter>GameObject\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMCharacter.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMComponent.cpp">
+      <Filter>Component\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapComponent.cpp">
+      <Filter>Component\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Component\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Manager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Manager\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationAsset.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceCounter.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonComponent.cpp">
+      <Filter>Component\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="TileColliderComponent.cpp">
+      <Filter>Component\TileCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="TileImageComponent.cpp">
+      <Filter>Component\TileImage</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Component\BoxCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="StateIdle.cpp">
+      <Filter>FSM\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMove.cpp">
+      <Filter>FSM\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="StateDeath.cpp">
+      <Filter>FSM\Death</Filter>
+    </ClCompile>
+    <ClCompile Include="StateDash.cpp">
+      <Filter>FSM\Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="StateJump.cpp">
+      <Filter>FSM\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="StateDoubleJump.cpp">
+      <Filter>FSM\Double Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="StateBubble.cpp">
+      <Filter>FSM\Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTeleport.cpp">
+      <Filter>FSM\Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="StateDoubleJumpDescent.cpp">
+      <Filter>FSM\Double Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="StateDoubleJumpLand.cpp">
+      <Filter>FSM\Double Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="StateJumpDescent.cpp">
+      <Filter>FSM\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="StateJumpLand.cpp">
+      <Filter>FSM\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TileObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Manager\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="PartSceneObject.cpp">
+      <Filter>GameObject\PartSceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonManager.cpp">
+      <Filter>Manager\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent.cpp">
+      <Filter>Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComponent.cpp">
+      <Filter>Component\UI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="CutSceneObject.cpp">
+      <Filter>GameObject\CutSceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PortObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleObject.cpp">
+      <Filter>GameObject\Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="StateBubbleBurst.cpp">
+      <Filter>FSM\BubbleBurst</Filter>
+    </ClCompile>
+    <ClCompile Include="StateBubbleIdle.cpp">
+      <Filter>FSM\BubbleIdle</Filter>
+    </ClCompile>
+    <ClCompile Include="StateBubbleInteract.cpp">
+      <Filter>FSM\BubbleInteract</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipseComponent.cpp">
+      <Filter>Component\ElipseComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="FireObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GemObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DisappearingObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTitleObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SpikeObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="2Q_Engine.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ToolManager">
+      <UniqueIdentifier>{68f2f914-06ae-478d-a245-2e2a4357093f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PathWindow">
+      <UniqueIdentifier>{9f550eee-c92a-4ddf-97ca-eff34ab957ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow">
+      <UniqueIdentifier>{53975a07-9eaf-447a-97fe-bcb434d65c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow\TileButton">
+      <UniqueIdentifier>{1be749c6-929c-43a5-9c00-bcf3a1ec9e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImagePalette">
+      <UniqueIdentifier>{4cce822a-f81b-410b-a4f4-0b7fc1cdaedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImagePalette\ImageButton">
+      <UniqueIdentifier>{0c4ae8c0-4e5a-473a-8881-a0d489bc9993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow\SaveWindow">
+      <UniqueIdentifier>{e533e2fa-3800-4287-8d1b-2d63bbcf1131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow\LoadWindow">
+      <UniqueIdentifier>{dedcc545-6d21-4bf6-9e1c-b6550126b1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow\NewWindow">
+      <UniqueIdentifier>{3e15b87a-40fc-428d-b556-b3a205e5cb4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolManager.h">
+      <Filter>ToolManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWin.h">
+      <Filter>MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="PathWindow.h">
+      <Filter>PathWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="TileButton.h">
+      <Filter>MainWindow\TileButton</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePalette.h">
+      <Filter>ImagePalette</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageButton.h">
+      <Filter>ImagePalette\ImageButton</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveWindow.h">
+      <Filter>MainWindow\SaveWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadWindow.h">
+      <Filter>MainWindow\LoadWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="NewWindow.h">
+      <Filter>MainWindow\NewWindow</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolManager.cpp">
+      <Filter>ToolManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWin.cpp">
+      <Filter>MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="PathWindow.cpp">
+      <Filter>PathWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="TileButton.cpp">
+      <Filter>MainWindow\TileButton</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePalette.cpp">
+      <Filter>ImagePalette</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageButton.cpp">
+      <Filter>ImagePalette\ImageButton</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveWindow.cpp">
+      <Filter>MainWindow\SaveWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadWindow.cpp">
+      <Filter>MainWindow\LoadWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="NewWindow.cpp">
+      <Filter>MainWindow\NewWindow</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\userimages.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Resource\tile.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
