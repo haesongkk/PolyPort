@@ -9,7 +9,9 @@
 
 ## 실행 화면
 
-[![](https://img.youtube.com/vi/jdqNjF8CTdQ/0.jpg)](https://www.youtube.com/watch?v=jdqNjF8CTdQ)
+[![](https://img.youtube.com/vi/jdqNjF8CTdQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=jdqNjF8CTdQ)
+
+> 위 이미지를 클릭하면 플레이 영상을 확인할 수 있습니다.
 
 ## 주요 기능
 
